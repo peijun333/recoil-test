@@ -1,7 +1,7 @@
-import { TextInput } from '~/components/TextInput'
+import { TodoList } from '~/components/TodoList'
 
 const Component: React.FC = () => {
-  return <TextInput />
+  return <TodoList />
 }
 
 export default Component
