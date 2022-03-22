@@ -1,5 +1,7 @@
+import { TextInput } from '~/components/TextInput'
+
 const Component: React.FC = () => {
-  return <div>hello</div>
+  return <TextInput />
 }
 
 export default Component
