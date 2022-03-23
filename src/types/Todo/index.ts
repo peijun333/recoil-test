@@ -3,3 +3,5 @@ export interface Todo {
   text: string
   isComplete: boolean
 }
+
+export type TodoShowType = 'Show All' | 'Show Completed' | 'Show Uncompleted'
